@@ -1,0 +1,14 @@
+{
+  "name": "webskill-india-house",
+  "version": "1.0.0",
+  "description": "Website design order-taking website for Webskill India House",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
